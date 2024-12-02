@@ -1,4 +1,5 @@
 # Garmin_MasterMind
+Garmin Connect IQ Game MasterMind
 
 It's Hangman!  Play anywhere, on the go!  And best of all, it's completely free!
 
