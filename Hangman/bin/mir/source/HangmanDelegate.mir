@@ -1,0 +1,508 @@
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 3; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 5; ]
+class HangmanDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_7_26_9_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 11; ]
+    function onMenu() as Boolean {
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_11_33_14_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 12 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :pushView;
+        %tmp.6 = getv ? :HangmanSettings;
+        %tmp.3 = newc %tmp.6 ();
+        %tmp.10 = getv ? :HangmanMenuDelegate;
+        %tmp.7 = newc %tmp.10 ();
+        %tmp.11 = getm $.Toybox.WatchUi;
+        %tmp.12 = getv %tmp.11 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.12);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 13 8 ]
+        %tmp.13 = true;
+        ret %tmp.13;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_11_33_14_4_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 16; ]
+    function onTap(clickEvent) as Boolean {
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_16_42_56_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 17 0 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :showToast;
+        %tmp.3 = "tap";
+        %tmp.4 = newd 0;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 18 8 ]
+        [ "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_16_42_56_4_start" "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_16_42_56_4_stop" ]
+        %xy.1 = local;
+        %tmp.5 = lgetv %clickEvent;
+        %tmp.6 = getv function %tmp.5 :getCoordinates;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %xy.1 %tmp.7;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 19 8 ]
+        [ "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_16_42_56_4_start" "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_16_42_56_4_stop" ]
+        %state.2 = local;
+        %tmp.9 = getv ? :game;
+        %tmp.10 = getv function %tmp.9 :get;
+        %tmp.11 = "state";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        lputv %state.2 %tmp.12;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 20 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_8_38_8_if_stmt:
+        %tmp.14 = lgetv %state.2;
+        %tmp.15 = 0;
+        %tmp.16 = eq %tmp.14 %tmp.15;
+        bf %tmp.16 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_8_38_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_8_38_8_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_24_38_8_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 21 12 ]
+        for @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_test @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_incr @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_init:
+        [ "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_begin" "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_end" ]
+        %i.3 = local;
+        %tmp.17 = 0;
+        lputv %i.3 %tmp.17;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_test:
+        %tmp.19 = lgetv %i.3;
+        %tmp.20 = 26;
+        %tmp.21 = lt %tmp.19 %tmp.20;
+        bf %tmp.21 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_begin:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_35_37_12_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 22 16 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_16_36_16_if_stmt:
+        %tmp.22 = self;
+        %tmp.23 = getv function %tmp.22 :inbox;
+        %tmp.24 = newa 2;
+        %tmp.26 = getv ? :letterX;
+        %tmp.28 = lgetv %i.3;
+        %tmp.29 = agetv %tmp.26 %tmp.28;
+        %tmp.30 = dup %tmp.24;
+        %tmp.31 = aputv %tmp.30 0 %tmp.29;
+        %tmp.33 = getv ? :letterY;
+        %tmp.35 = lgetv %i.3;
+        %tmp.36 = agetv %tmp.33 %tmp.35;
+        %tmp.37 = dup %tmp.31;
+        %tmp.38 = aputv %tmp.37 1 %tmp.36;
+        %tmp.39 = newa 2;
+        %tmp.41 = getv ? :rad;
+        %tmp.42 = 2;
+        %tmp.43 = mul %tmp.41 %tmp.42;
+        %tmp.44 = dup %tmp.39;
+        %tmp.45 = aputv %tmp.44 0 %tmp.43;
+        %tmp.47 = getv ? :rad;
+        %tmp.48 = 2;
+        %tmp.49 = mul %tmp.47 %tmp.48;
+        %tmp.50 = dup %tmp.45;
+        %tmp.51 = aputv %tmp.50 1 %tmp.49;
+        %tmp.53 = lgetv %xy.1;
+        %tmp.54 = invoke %tmp.22 %tmp.23(%tmp.38, %tmp.51, %tmp.53);
+        bf %tmp.54 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_16_36_16_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_16_36_16_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_69_36_16_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 23 0 ]
+        %tmp.55 = getm $.Toybox.WatchUi;
+        %tmp.56 = getv function %tmp.55 :showToast;
+        %tmp.58 = getv ? :letters;
+        %tmp.60 = lgetv %i.3;
+        %tmp.61 = agetv %tmp.58 %tmp.60;
+        %tmp.62 = newd 0;
+        invoke %tmp.55 %tmp.56(%tmp.61, %tmp.62);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 24 20 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_20_35_20_if_stmt:
+        %tmp.64 = getv ? :letterStatus;
+        %tmp.66 = lgetv %i.3;
+        %tmp.67 = agetv %tmp.64 %tmp.66;
+        %tmp.68 = 0;
+        %tmp.69 = eq %tmp.67 %tmp.68;
+        bf %tmp.69 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_20_35_20_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_20_35_20_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_46_35_20_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 25 24 ]
+        %tmp.71 = getv ? :keyboard;
+        push %tmp.71;
+        switch %tmp.71 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_switchStmtEnd;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_switchStmtBegin:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 26 28 ]
+        %tmp.72 = dup %tmp.71;
+        %tmp.73 = 0;
+        %tmp.74 = getv function %tmp.72 :equals;
+        %tmp.75 = invoke %tmp.72 %tmp.74 (%tmp.73);
+        bt %tmp.75 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_26_28_28_37_switchCase;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 29 28 ]
+        %tmp.76 = dup %tmp.71;
+        %tmp.77 = 1;
+        %tmp.78 = getv function %tmp.76 :equals;
+        %tmp.79 = invoke %tmp.76 %tmp.78 (%tmp.77);
+        bt %tmp.79 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_29_28_31_37_switchCase;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_switchStmtDefault:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_defaultCodeBegin;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_26_28_28_37_switchCase:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 27 31 ]
+        %tmp.80 = self;
+        %tmp.81 = getv function %tmp.80 :procLetter;
+        %tmp.83 = lgetv %i.3;
+        invoke %tmp.80 %tmp.81(%tmp.83);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 28 32 ]
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_switchStmtEnd;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_29_28_31_37_switchCase:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 30 32 ]
+        %tmp.85 = lgetv %i.3;
+        putv self :selected %tmp.85;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 31 32 ]
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_switchStmtEnd;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_defaultCodeBegin:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_25_24_32_24_switchStmtEnd:
+        pop;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 33 24 ]
+        %tmp.86 = getm $.Toybox.WatchUi;
+        %tmp.87 = getv function %tmp.86 :requestUpdate;
+        invoke %tmp.86 %tmp.87();
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 34 24 ]
+        %tmp.88 = true;
+        ret %tmp.88;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_46_35_20_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_20_35_20_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_24_20_35_20_if_end:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_69_36_16_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_16_36_16_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_22_16_36_16_if_end:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_35_37_12_stop:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_incr:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 21 ]
+        %tmp.91 = lgetv %i.3;
+        %tmp.92 = add %tmp.91 1;
+        lputv %i.3 %tmp.92;
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_test;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_21_12_37_12_for_end:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_24_38_8_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_8_38_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_20_8_38_8_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 39 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_8_44_8_if_stmt:
+        %tmp.93 = self;
+        %tmp.94 = getv function %tmp.93 :inbox;
+        %tmp.95 = newa 2;
+        %tmp.97 = getv ? :newX;
+        %tmp.98 = dup %tmp.95;
+        %tmp.99 = aputv %tmp.98 0 %tmp.97;
+        %tmp.101 = getv ? :newY;
+        %tmp.102 = dup %tmp.99;
+        %tmp.103 = aputv %tmp.102 1 %tmp.101;
+        %tmp.104 = newa 2;
+        %tmp.106 = getv ? :newW;
+        %tmp.107 = dup %tmp.104;
+        %tmp.108 = aputv %tmp.107 0 %tmp.106;
+        %tmp.110 = getv ? :newH;
+        %tmp.111 = dup %tmp.108;
+        %tmp.112 = aputv %tmp.111 1 %tmp.110;
+        %tmp.114 = lgetv %xy.1;
+        %tmp.115 = invoke %tmp.93 %tmp.94(%tmp.103, %tmp.112, %tmp.114);
+        bf %tmp.115 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_8_44_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_8_44_8_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_47_44_8_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 40 0 ]
+        %tmp.116 = getm $.Toybox.WatchUi;
+        %tmp.117 = getv function %tmp.116 :showToast;
+        %tmp.118 = "new game";
+        %tmp.119 = newd 0;
+        invoke %tmp.116 %tmp.117(%tmp.118, %tmp.119);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 41 12 ]
+        %tmp.120 = self;
+        %tmp.121 = getv function %tmp.120 :newgame;
+        invoke %tmp.120 %tmp.121();
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 42 12 ]
+        %tmp.122 = getm $.Toybox.WatchUi;
+        %tmp.123 = getv function %tmp.122 :requestUpdate;
+        invoke %tmp.122 %tmp.123();
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 43 12 ]
+        %tmp.124 = true;
+        ret %tmp.124;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_47_44_8_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_8_44_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_39_8_44_8_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 45 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_8_51_8_if_stmt:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_12_45_63_begin:
+        %tmp.125 = self;
+        %tmp.126 = getv function %tmp.125 :inbox;
+        %tmp.127 = newa 2;
+        %tmp.129 = getv ? :tryX;
+        %tmp.130 = dup %tmp.127;
+        %tmp.131 = aputv %tmp.130 0 %tmp.129;
+        %tmp.133 = getv ? :tryY;
+        %tmp.134 = dup %tmp.131;
+        %tmp.135 = aputv %tmp.134 1 %tmp.133;
+        %tmp.136 = newa 2;
+        %tmp.138 = getv ? :tryW;
+        %tmp.139 = dup %tmp.136;
+        %tmp.140 = aputv %tmp.139 0 %tmp.138;
+        %tmp.142 = getv ? :tryH;
+        %tmp.143 = dup %tmp.140;
+        %tmp.144 = aputv %tmp.143 1 %tmp.142;
+        %tmp.146 = lgetv %xy.1;
+        %tmp.147 = invoke %tmp.125 %tmp.126(%tmp.135, %tmp.144, %tmp.146);
+        bf %tmp.147 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_8_51_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_50_45_63_true:
+        %tmp.149 = getv ? :selected;
+        %tmp.150 = -1;
+        %tmp.151 = ne %tmp.149 %tmp.150;
+        push %tmp.151;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_50_45_63_end:
+        %tmp.152 = phi [%tmp.147 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_12_45_63_begin] [%tmp.151 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_50_45_63_true] [%tmp.152 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_50_45_63_end];
+        bf %tmp.152 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_8_51_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_8_51_8_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_66_51_8_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 46 0 ]
+        %tmp.153 = getm $.Toybox.WatchUi;
+        %tmp.154 = getv function %tmp.153 :showToast;
+        %tmp.155 = "try";
+        %tmp.156 = newd 0;
+        invoke %tmp.153 %tmp.154(%tmp.155, %tmp.156);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 47 12 ]
+        %tmp.157 = self;
+        %tmp.158 = getv function %tmp.157 :procLetter;
+        %tmp.160 = getv ? :selected;
+        invoke %tmp.157 %tmp.158(%tmp.160);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 48 12 ]
+        %tmp.161 = -1;
+        putv self :selected %tmp.161;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 49 12 ]
+        %tmp.162 = getm $.Toybox.WatchUi;
+        %tmp.163 = getv function %tmp.162 :requestUpdate;
+        invoke %tmp.162 %tmp.163();
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 50 12 ]
+        %tmp.164 = true;
+        ret %tmp.164;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_66_51_8_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_8_51_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_45_8_51_8_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 52 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_8_54_8_if_stmt:
+        %tmp.165 = self;
+        %tmp.166 = getv function %tmp.165 :inbox;
+        %tmp.167 = newa 2;
+        %tmp.169 = getv ? :nooseX;
+        %tmp.170 = dup %tmp.167;
+        %tmp.171 = aputv %tmp.170 0 %tmp.169;
+        %tmp.173 = getv ? :nooseY;
+        %tmp.174 = dup %tmp.171;
+        %tmp.175 = aputv %tmp.174 1 %tmp.173;
+        %tmp.176 = newa 2;
+        %tmp.178 = getv ? :nooseW;
+        %tmp.179 = dup %tmp.176;
+        %tmp.180 = aputv %tmp.179 0 %tmp.178;
+        %tmp.182 = getv ? :nooseH;
+        %tmp.183 = dup %tmp.180;
+        %tmp.184 = aputv %tmp.183 1 %tmp.182;
+        %tmp.186 = lgetv %xy.1;
+        %tmp.187 = invoke %tmp.165 %tmp.166(%tmp.175, %tmp.184, %tmp.186);
+        bf %tmp.187 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_8_54_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_8_54_8_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_55_54_8_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 53 12 ]
+        %tmp.188 = self;
+        %tmp.189 = getv function %tmp.188 :showStats;
+        invoke %tmp.188 %tmp.189();
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_55_54_8_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_8_54_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_52_8_54_8_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 55 8 ]
+        %tmp.190 = false;
+        ret %tmp.190;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_16_42_56_4_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 62; ]
+    function inbox(boxxy, boxwh, point) as Boolean {
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_62_49_68_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 63 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_8_63_45_if_stmt:
+        %tmp.2 = lgetv %point;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.6 = lgetv %boxxy;
+        %tmp.7 = 0;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        %tmp.9 = lt %tmp.4 %tmp.8;
+        bf %tmp.9 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_8_63_45_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_8_63_45_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_31_63_45_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 63 32 ]
+        %tmp.10 = false;
+        ret %tmp.10;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_31_63_45_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_8_63_45_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_63_8_63_45_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 64 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_8_64_54_if_stmt:
+        %tmp.12 = lgetv %point;
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        %tmp.16 = lgetv %boxxy;
+        %tmp.17 = 0;
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.20 = lgetv %boxwh;
+        %tmp.21 = 0;
+        %tmp.22 = agetv %tmp.20 %tmp.21;
+        %tmp.23 = add %tmp.18 %tmp.22;
+        %tmp.24 = gt %tmp.14 %tmp.23;
+        bf %tmp.24 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_8_64_54_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_8_64_54_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_40_64_54_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 64 41 ]
+        %tmp.25 = false;
+        ret %tmp.25;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_40_64_54_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_8_64_54_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_64_8_64_54_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 65 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_8_65_45_if_stmt:
+        %tmp.27 = lgetv %point;
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.31 = lgetv %boxxy;
+        %tmp.32 = 1;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = lt %tmp.29 %tmp.33;
+        bf %tmp.34 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_8_65_45_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_8_65_45_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_31_65_45_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 65 32 ]
+        %tmp.35 = false;
+        ret %tmp.35;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_31_65_45_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_8_65_45_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_65_8_65_45_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 66 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_8_66_54_if_stmt:
+        %tmp.37 = lgetv %point;
+        %tmp.38 = 1;
+        %tmp.39 = agetv %tmp.37 %tmp.38;
+        %tmp.41 = lgetv %boxxy;
+        %tmp.42 = 1;
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.45 = lgetv %boxwh;
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = add %tmp.43 %tmp.47;
+        %tmp.49 = gt %tmp.39 %tmp.48;
+        bf %tmp.49 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_8_66_54_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_8_66_54_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_40_66_54_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 66 41 ]
+        %tmp.50 = false;
+        ret %tmp.50;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_40_66_54_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_8_66_54_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_66_8_66_54_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 67 8 ]
+        %tmp.51 = true;
+        ret %tmp.51;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_62_49_68_4_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 70; ]
+    function procLetter(l) {
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_70_27_85_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 71 8 ]
+        [ "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_70_27_85_4_start" "C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_70_27_85_4_stop" ]
+        %segments.1 = local;
+        %tmp.2 = getv ? :game;
+        %tmp.3 = getv function %tmp.2 :get;
+        %tmp.4 = "segments";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        lputv %segments.1 %tmp.5;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 72 8 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_8_82_8_if_stmt:
+        %tmp.7 = getv ? :puzzle;
+        %tmp.8 = getv function %tmp.7 :find;
+        %tmp.10 = getv ? :letters;
+        %tmp.12 = lgetv %l;
+        %tmp.13 = agetv %tmp.10 %tmp.12;
+        %tmp.14 = invoke %tmp.7 %tmp.8(%tmp.13);
+        %tmp.15 = null;
+        %tmp.16 = eq %tmp.14 %tmp.15;
+        bf %tmp.16 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_8_82_8_if_false;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_8_82_8_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_45_80_8_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 73 12 ]
+        %tmp.17 = getv self :letterStatus;
+        %tmp.18 = -1;
+        %tmp.20 = lgetv %l;
+        aputv %tmp.17 %tmp.20 %tmp.18;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 74 12 ]
+        %tmp.23 = lgetv %segments.1;
+        %tmp.24 = add %tmp.23 1;
+        lputv %segments.1 %tmp.24;
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 75 12 ]
+        %tmp.26 = getv ? :game;
+        %tmp.27 = getv function %tmp.26 :put;
+        %tmp.28 = "segments";
+        %tmp.30 = lgetv %segments.1;
+        invoke %tmp.26 %tmp.27(%tmp.28, %tmp.30);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 76 12 ]
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_12_79_12_if_stmt:
+        %tmp.32 = lgetv %segments.1;
+        %tmp.33 = 6;
+        %tmp.34 = eq %tmp.32 %tmp.33;
+        bf %tmp.34 @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_12_79_12_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_12_79_12_if_true:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_31_79_12_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 77 16 ]
+        %tmp.36 = getv ? :game;
+        %tmp.37 = getv function %tmp.36 :put;
+        %tmp.38 = "state";
+        %tmp.39 = -1;
+        invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 78 16 ]
+        %tmp.40 = self;
+        %tmp.41 = getv function %tmp.40 :addStats;
+        invoke %tmp.40 %tmp.41();
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_31_79_12_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_12_79_12_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_76_12_79_12_if_end:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_45_80_8_stop:
+        goto @C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_8_82_8_if_end;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_8_82_8_if_false:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_80_15_82_8_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 81 12 ]
+        %tmp.42 = getv self :letterStatus;
+        %tmp.43 = 1;
+        %tmp.45 = lgetv %l;
+        aputv %tmp.42 %tmp.45 %tmp.43;
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_80_15_82_8_stop:
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_72_8_82_8_if_end:
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 83 8 ]
+        %tmp.47 = getv ? :game;
+        %tmp.48 = getv function %tmp.47 :put;
+        %tmp.49 = "status";
+        %tmp.51 = getv ? :letterStatus;
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.51);
+[ "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc" 84 8 ]
+        %tmp.52 = getm $.Toybox.Application.Storage;
+        %tmp.53 = getv function %tmp.52 :setValue;
+        %tmp.54 = "game";
+        %tmp.56 = getv ? :game;
+        invoke %tmp.52 %tmp.53(%tmp.54, %tmp.56);
+C_Garmin_Projects_Hangman_source_HangmanDelegate_mc_70_27_85_4_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,122 @@
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 4; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 6; ]
+class HangmanMenuDelegate extends WatchUi.MenuInputDelegate{
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 8; ]
+    function initialize() as Void {
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_8_26_10_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 9 8 ]
+        %tmp.2 = getv ? :MenuInputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_8_26_10_4_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 12; ]
+    public
+    function onSelect(item as MenuItem) {
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_12_47_25_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 13 8 ]
+        %tmp.1 = lgetv %item;
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        push %tmp.3;
+        switch %tmp.3 @C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_switchStmtEnd;
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_switchStmtBegin:
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 14 12 ]
+        %tmp.4 = dup %tmp.3;
+        %tmp.5 = "keyboard";
+        %tmp.6 = getv function %tmp.4 :equals;
+        %tmp.7 = invoke %tmp.4 %tmp.6 (%tmp.5);
+        bt %tmp.7 @C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_14_12_18_21_switchCase;
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 19 12 ]
+        %tmp.8 = dup %tmp.3;
+        %tmp.9 = "theme";
+        %tmp.10 = getv function %tmp.8 :equals;
+        %tmp.11 = invoke %tmp.8 %tmp.10 (%tmp.9);
+        bt %tmp.11 @C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_19_12_23_21_switchCase;
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_switchStmtDefault:
+        goto @C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_defaultCodeBegin;
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_14_12_18_21_switchCase:
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 15 16 ]
+        %tmp.13 = getv ? :keyboard;
+        %tmp.14 = 1;
+        %tmp.15 = add %tmp.13 %tmp.14;
+        %tmp.17 = getv ? :keyboards;
+        %tmp.18 = getv function %tmp.17 :size;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = mod %tmp.15 %tmp.19;
+        putv self :keyboard %tmp.20;
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 16 16 ]
+        %tmp.21 = getm $.Toybox.Application.Storage;
+        %tmp.22 = getv function %tmp.21 :setValue;
+        %tmp.23 = "keyboard";
+        %tmp.25 = getv ? :keyboard;
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.25);
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 17 16 ]
+        %tmp.26 = lgetv %item;
+        %tmp.27 = getv function %tmp.26 :setSubLabel;
+        %tmp.29 = getv ? :keyboards;
+        %tmp.31 = getv ? :keyboard;
+        %tmp.32 = agetv %tmp.29 %tmp.31;
+        invoke %tmp.26 %tmp.27(%tmp.32);
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 18 16 ]
+        goto @C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_switchStmtEnd;
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_19_12_23_21_switchCase:
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 20 16 ]
+        %tmp.34 = getv ? :theme;
+        %tmp.35 = 1;
+        %tmp.36 = add %tmp.34 %tmp.35;
+        %tmp.38 = getv ? :themes;
+        %tmp.39 = getv function %tmp.38 :size;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        %tmp.41 = mod %tmp.36 %tmp.40;
+        putv self :theme %tmp.41;
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 21 16 ]
+        %tmp.42 = getm $.Toybox.Application.Storage;
+        %tmp.43 = getv function %tmp.42 :setValue;
+        %tmp.44 = "theme";
+        %tmp.46 = getv ? :theme;
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.46);
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 22 16 ]
+        %tmp.47 = lgetv %item;
+        %tmp.48 = getv function %tmp.47 :setSubLabel;
+        %tmp.50 = getv ? :themes;
+        %tmp.52 = getv ? :theme;
+        %tmp.53 = agetv %tmp.50 %tmp.52;
+        invoke %tmp.47 %tmp.48(%tmp.53);
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 23 16 ]
+        goto @C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_switchStmtEnd;
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_defaultCodeBegin:
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_13_8_24_8_switchStmtEnd:
+        pop;
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_12_47_25_4_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 27; ]
+    public
+    function onBack() {
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_27_29_29_4_start:
+[ "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc" 28 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+C_Garmin_Projects_Hangman_source_HangmanMenuDelegate_mc_27_29_29_4_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\Hangman\source\HangmanMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

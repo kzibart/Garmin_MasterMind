@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Garmin\Projects\Hangman\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="8" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="9" parent="globals" pc="268435483" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="10" parent="globals" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="15" parent="globals" pc="268435527" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="16" parent="globals" pc="268435879" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="17" parent="globals" pc="268435893" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="18" parent="globals" pc="268435907" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="19" parent="globals" pc="268436259" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="22" parent="globals" pc="268436302" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="24" parent="globals" pc="268436342" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="30" parent="globals" pc="268436395" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="31" parent="globals" pc="268436417" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="32" parent="globals" pc="268436439" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="33" parent="globals" pc="268436470" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="35" parent="globals" pc="268436492" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="42" parent="globals" pc="268436999" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="44" parent="globals" pc="268437125" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="52" parent="globals" pc="268438062" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="53" parent="globals" pc="268438084" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="57" parent="globals" pc="268438148" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="4" lineNum="58" parent="globals" pc="268438170" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\puzzles.mc" id="5" lineNum="1" parent="globals" pc="268438192" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Garmin\\Projects\\Hangman\\gen\\006-B4260-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268466118" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="8" lineNum="358" parent="globals" pc="268466142" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="8" lineNum="359" parent="globals" pc="268466154" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="8" lineNum="360" parent="globals" pc="268466189" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="8" lineNum="367" parent="globals" pc="268466613" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="8" lineNum="368" parent="globals" pc="268466642" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="9" lineNum="416" parent="globals/DrawableMenuTitle" pc="268466656" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="10" lineNum="64" parent="globals/HangmanView" pc="268466675" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="11" lineNum="483" parent="globals/CustomIcon" pc="268466694" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="12" lineNum="470" parent="globals/HangmanSettings" pc="268466713" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="13" lineNum="430" parent="globals/CustomItem" pc="268466732" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="381" parent="globals" pc="268466751" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="382" parent="globals" pc="268466763" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="383" parent="globals" pc="268466785" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="383" parent="globals" pc="268466791" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="384" parent="globals" pc="268466795" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="388" parent="globals" pc="268466882" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="389" parent="globals" pc="268466981" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="390" parent="globals" pc="268466988" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="391" parent="globals" pc="268466995" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="392" parent="globals" pc="268467019" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="392" parent="globals" pc="268467030" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="393" parent="globals" pc="268467040" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="395" parent="globals" pc="268467063" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="396" parent="globals" pc="268467087" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="398" parent="globals" pc="268467150" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="14" lineNum="399" parent="globals" pc="268467195" symbol="showStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="371" parent="globals" pc="268467212" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="372" parent="globals" pc="268467224" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="373" parent="globals" pc="268467246" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="374" parent="globals" pc="268467270" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="375" parent="globals" pc="268467276" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="377" parent="globals" pc="268467378" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="15" lineNum="378" parent="globals" pc="268467394" symbol="addStats"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="16" lineNum="402" parent="globals/HangmanStatsDelegate" pc="268467418" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="17" lineNum="26" parent="globals" pc="268467437" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="17" lineNum="27" parent="globals" pc="268467447" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="18" lineNum="5" parent="globals/HangmanApp" pc="268467463" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="19" lineNum="5" parent="globals/HangmanDelegate" pc="268467482" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="20" lineNum="6" parent="globals/HangmanMenuDelegate" pc="268467501" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="21" lineNum="417" parent="globals/DrawableMenuTitle" pc="268467520" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="21" lineNum="418" parent="globals/DrawableMenuTitle" pc="268467522" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="22" lineNum="421" parent="globals/DrawableMenuTitle" pc="268467547" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="22" lineNum="422" parent="globals/DrawableMenuTitle" pc="268467549" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="22" lineNum="423" parent="globals/DrawableMenuTitle" pc="268467571" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="22" lineNum="424" parent="globals/DrawableMenuTitle" pc="268467583" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="22" lineNum="425" parent="globals/DrawableMenuTitle" pc="268467656" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="22" lineNum="426" parent="globals/DrawableMenuTitle" pc="268467673" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="71" parent="globals/HangmanView" pc="268467724" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="72" parent="globals/HangmanView" pc="268467728" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="73" parent="globals/HangmanView" pc="268467753" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="74" parent="globals/HangmanView" pc="268467811" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="75" parent="globals/HangmanView" pc="268467836" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="76" parent="globals/HangmanView" pc="268467854" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="77" parent="globals/HangmanView" pc="268467867" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="78" parent="globals/HangmanView" pc="268467880" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="80" parent="globals/HangmanView" pc="268467915" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="81" parent="globals/HangmanView" pc="268467937" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="82" parent="globals/HangmanView" pc="268467995" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="83" parent="globals/HangmanView" pc="268468013" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="84" parent="globals/HangmanView" pc="268468026" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="85" parent="globals/HangmanView" pc="268468039" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="87" parent="globals/HangmanView" pc="268468074" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="88" parent="globals/HangmanView" pc="268468096" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="89" parent="globals/HangmanView" pc="268468154" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="90" parent="globals/HangmanView" pc="268468172" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="91" parent="globals/HangmanView" pc="268468185" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="24" lineNum="92" parent="globals/HangmanView" pc="268468198" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="25" lineNum="66" parent="globals/HangmanView" pc="268468234" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="25" lineNum="67" parent="globals/HangmanView" pc="268468236" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="103" parent="globals/HangmanView" pc="268468255" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="104" parent="globals/HangmanView" pc="268468259" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="105" parent="globals/HangmanView" pc="268468281" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="106" parent="globals/HangmanView" pc="268468293" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="110" parent="globals/HangmanView" pc="268468310" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="107" parent="globals/HangmanView" pc="268468310" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="111" parent="globals/HangmanView" pc="268468338" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="111" parent="globals/HangmanView" pc="268468350" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="112" parent="globals/HangmanView" pc="268468365" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="113" parent="globals/HangmanView" pc="268468395" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="114" parent="globals/HangmanView" pc="268468425" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="115" parent="globals/HangmanView" pc="268468453" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="115" parent="globals/HangmanView" pc="268468465" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="116" parent="globals/HangmanView" pc="268468481" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="117" parent="globals/HangmanView" pc="268468509" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="117" parent="globals/HangmanView" pc="268468521" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="118" parent="globals/HangmanView" pc="268468537" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="119" parent="globals/HangmanView" pc="268468545" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="123" parent="globals/HangmanView" pc="268468565" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="127" parent="globals/HangmanView" pc="268468585" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="120" parent="globals/HangmanView" pc="268468608" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="121" parent="globals/HangmanView" pc="268468618" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="122" parent="globals/HangmanView" pc="268468628" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="124" parent="globals/HangmanView" pc="268468631" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="125" parent="globals/HangmanView" pc="268468641" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="126" parent="globals/HangmanView" pc="268468651" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="128" parent="globals/HangmanView" pc="268468654" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="129" parent="globals/HangmanView" pc="268468664" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="130" parent="globals/HangmanView" pc="268468674" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="133" parent="globals/HangmanView" pc="268468678" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="134" parent="globals/HangmanView" pc="268468686" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="144" parent="globals/HangmanView" pc="268468706" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="135" parent="globals/HangmanView" pc="268468729" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="136" parent="globals/HangmanView" pc="268468751" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="137" parent="globals/HangmanView" pc="268468773" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="138" parent="globals/HangmanView" pc="268468804" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="139" parent="globals/HangmanView" pc="268468826" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="140" parent="globals/HangmanView" pc="268468842" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="141" parent="globals/HangmanView" pc="268468858" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="142" parent="globals/HangmanView" pc="268468871" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="143" parent="globals/HangmanView" pc="268468884" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="145" parent="globals/HangmanView" pc="268468887" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="146" parent="globals/HangmanView" pc="268468909" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="147" parent="globals/HangmanView" pc="268468931" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="148" parent="globals/HangmanView" pc="268468983" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="149" parent="globals/HangmanView" pc="268469005" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="150" parent="globals/HangmanView" pc="268469045" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="151" parent="globals/HangmanView" pc="268469061" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="152" parent="globals/HangmanView" pc="268469077" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="153" parent="globals/HangmanView" pc="268469093" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="157" parent="globals/HangmanView" pc="268469097" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="158" parent="globals/HangmanView" pc="268469105" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="159" parent="globals/HangmanView" pc="268469112" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="160" parent="globals/HangmanView" pc="268469131" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="161" parent="globals/HangmanView" pc="268469149" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="162" parent="globals/HangmanView" pc="268469167" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="163" parent="globals/HangmanView" pc="268469173" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="165" parent="globals/HangmanView" pc="268469189" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="166" parent="globals/HangmanView" pc="268469200" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="167" parent="globals/HangmanView" pc="268469226" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="168" parent="globals/HangmanView" pc="268469239" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="169" parent="globals/HangmanView" pc="268469265" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="171" parent="globals/HangmanView" pc="268469299" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="172" parent="globals/HangmanView" pc="268469325" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="174" parent="globals/HangmanView" pc="268469335" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="174" parent="globals/HangmanView" pc="268469352" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="175" parent="globals/HangmanView" pc="268469358" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="177" parent="globals/HangmanView" pc="268469393" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="178" parent="globals/HangmanView" pc="268469417" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="182" parent="globals/HangmanView" pc="268469449" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="183" parent="globals/HangmanView" pc="268469473" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="184" parent="globals/HangmanView" pc="268469484" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="185" parent="globals/HangmanView" pc="268469491" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="186" parent="globals/HangmanView" pc="268469515" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="187" parent="globals/HangmanView" pc="268469542" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="188" parent="globals/HangmanView" pc="268469578" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="189" parent="globals/HangmanView" pc="268469589" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="190" parent="globals/HangmanView" pc="268469609" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="191" parent="globals/HangmanView" pc="268469622" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="196" parent="globals/HangmanView" pc="268469664" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="197" parent="globals/HangmanView" pc="268469686" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="198" parent="globals/HangmanView" pc="268469693" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="199" parent="globals/HangmanView" pc="268469718" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="200" parent="globals/HangmanView" pc="268469747" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="205" parent="globals/HangmanView" pc="268469765" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="206" parent="globals/HangmanView" pc="268469782" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="207" parent="globals/HangmanView" pc="268469812" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="208" parent="globals/HangmanView" pc="268469846" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="212" parent="globals/HangmanView" pc="268469975" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="213" parent="globals/HangmanView" pc="268469992" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="214" parent="globals/HangmanView" pc="268470016" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="215" parent="globals/HangmanView" pc="268470023" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="216" parent="globals/HangmanView" pc="268470030" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="217" parent="globals/HangmanView" pc="268470032" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="228" parent="globals/HangmanView" pc="268470052" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="218" parent="globals/HangmanView" pc="268470075" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="219" parent="globals/HangmanView" pc="268470082" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="220" parent="globals/HangmanView" pc="268470098" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="221" parent="globals/HangmanView" pc="268470114" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="222" parent="globals/HangmanView" pc="268470136" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="223" parent="globals/HangmanView" pc="268470167" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="224" parent="globals/HangmanView" pc="268470192" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="225" parent="globals/HangmanView" pc="268470217" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="226" parent="globals/HangmanView" pc="268470254" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="227" parent="globals/HangmanView" pc="268470291" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="229" parent="globals/HangmanView" pc="268470294" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="230" parent="globals/HangmanView" pc="268470316" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="231" parent="globals/HangmanView" pc="268470347" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="232" parent="globals/HangmanView" pc="268470396" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="233" parent="globals/HangmanView" pc="268470430" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="234" parent="globals/HangmanView" pc="268470470" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="235" parent="globals/HangmanView" pc="268470504" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="237" parent="globals/HangmanView" pc="268470508" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="238" parent="globals/HangmanView" pc="268470519" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="239" parent="globals/HangmanView" pc="268470550" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="241" parent="globals/HangmanView" pc="268470640" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="242" parent="globals/HangmanView" pc="268470670" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="243" parent="globals/HangmanView" pc="268470684" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="244" parent="globals/HangmanView" pc="268470718" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="249" parent="globals/HangmanView" pc="268470862" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="250" parent="globals/HangmanView" pc="268470884" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="251" parent="globals/HangmanView" pc="268470936" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="252" parent="globals/HangmanView" pc="268470973" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="253" parent="globals/HangmanView" pc="268470997" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="254" parent="globals/HangmanView" pc="268471019" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="255" parent="globals/HangmanView" pc="268471059" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="256" parent="globals/HangmanView" pc="268471086" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="261" parent="globals/HangmanView" pc="268471170" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="262" parent="globals/HangmanView" pc="268471187" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="263" parent="globals/HangmanView" pc="268471205" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="264" parent="globals/HangmanView" pc="268471216" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="291" parent="globals/HangmanView" pc="268471236" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="294" parent="globals/HangmanView" pc="268471256" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="265" parent="globals/HangmanView" pc="268471279" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="266" parent="globals/HangmanView" pc="268471290" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="267" parent="globals/HangmanView" pc="268471301" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="268" parent="globals/HangmanView" pc="268471326" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="270" parent="globals/HangmanView" pc="268471441" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="271" parent="globals/HangmanView" pc="268471472" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="273" parent="globals/HangmanView" pc="268471497" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="275" parent="globals/HangmanView" pc="268471519" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="276" parent="globals/HangmanView" pc="268471595" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="277" parent="globals/HangmanView" pc="268471606" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="278" parent="globals/HangmanView" pc="268471631" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="280" parent="globals/HangmanView" pc="268471746" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="282" parent="globals/HangmanView" pc="268471771" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="283" parent="globals/HangmanView" pc="268471802" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="285" parent="globals/HangmanView" pc="268471827" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="287" parent="globals/HangmanView" pc="268471849" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="288" parent="globals/HangmanView" pc="268471925" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="290" parent="globals/HangmanView" pc="268471947" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="292" parent="globals/HangmanView" pc="268471950" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="293" parent="globals/HangmanView" pc="268471972" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="295" parent="globals/HangmanView" pc="268471975" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="296" parent="globals/HangmanView" pc="268471997" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="298" parent="globals/HangmanView" pc="268472001" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="302" parent="globals/HangmanView" pc="268472090" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="303" parent="globals/HangmanView" pc="268472101" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="304" parent="globals/HangmanView" pc="268472112" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="305" parent="globals/HangmanView" pc="268472137" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="307" parent="globals/HangmanView" pc="268472261" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="308" parent="globals/HangmanView" pc="268472283" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="309" parent="globals/HangmanView" pc="268472386" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="310" parent="globals/HangmanView" pc="268472393" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="310" parent="globals/HangmanView" pc="268472410" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="311" parent="globals/HangmanView" pc="268472420" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="312" parent="globals/HangmanView" pc="268472431" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="313" parent="globals/HangmanView" pc="268472456" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="315" parent="globals/HangmanView" pc="268472568" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="316" parent="globals/HangmanView" pc="268472590" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="318" parent="globals/HangmanView" pc="268472684" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="319" parent="globals/HangmanView" pc="268472706" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="320" parent="globals/HangmanView" pc="268472809" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="321" parent="globals/HangmanView" pc="268472831" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="322" parent="globals/HangmanView" pc="268472838" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="322" parent="globals/HangmanView" pc="268472855" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="323" parent="globals/HangmanView" pc="268472865" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="327" parent="globals/HangmanView" pc="268472956" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="328" parent="globals/HangmanView" pc="268472973" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="329" parent="globals/HangmanView" pc="268472984" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="330" parent="globals/HangmanView" pc="268472995" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="331" parent="globals/HangmanView" pc="268473020" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="333" parent="globals/HangmanView" pc="268473144" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="334" parent="globals/HangmanView" pc="268473166" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="335" parent="globals/HangmanView" pc="268473269" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="336" parent="globals/HangmanView" pc="268473280" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="337" parent="globals/HangmanView" pc="268473305" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="339" parent="globals/HangmanView" pc="268473420" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="340" parent="globals/HangmanView" pc="268473442" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="342" parent="globals/HangmanView" pc="268473539" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="343" parent="globals/HangmanView" pc="268473561" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="344" parent="globals/HangmanView" pc="268473664" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="27" lineNum="345" parent="globals/HangmanView" pc="268473686" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="28" lineNum="486" parent="globals/CustomIcon" pc="268473784" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="28" lineNum="487" parent="globals/CustomIcon" pc="268473786" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="28" lineNum="488" parent="globals/CustomIcon" pc="268473796" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="29" lineNum="491" parent="globals/CustomIcon" pc="268473821" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="29" lineNum="492" parent="globals/CustomIcon" pc="268473823" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="29" lineNum="493" parent="globals/CustomIcon" pc="268473845" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="471" parent="globals/HangmanSettings" pc="268473858" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="472" parent="globals/HangmanSettings" pc="268473862" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="473" parent="globals/HangmanSettings" pc="268473881" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="475" parent="globals/HangmanSettings" pc="268473904" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="476" parent="globals/HangmanSettings" pc="268473940" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="478" parent="globals/HangmanSettings" pc="268473976" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="30" lineNum="479" parent="globals/HangmanSettings" pc="268474050" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="437" parent="globals/CustomItem" pc="268474125" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="438" parent="globals/CustomItem" pc="268474127" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="439" parent="globals/CustomItem" pc="268474153" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="440" parent="globals/CustomItem" pc="268474163" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="441" parent="globals/CustomItem" pc="268474173" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="442" parent="globals/CustomItem" pc="268474183" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="31" lineNum="443" parent="globals/CustomItem" pc="268474193" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="446" parent="globals/CustomItem" pc="268474204" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="448" parent="globals/CustomItem" pc="268474208" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="449" parent="globals/CustomItem" pc="268474221" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="450" parent="globals/CustomItem" pc="268474234" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="451" parent="globals/CustomItem" pc="268474244" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="452" parent="globals/CustomItem" pc="268474260" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="453" parent="globals/CustomItem" pc="268474264" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="454" parent="globals/CustomItem" pc="268474283" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="455" parent="globals/CustomItem" pc="268474290" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="456" parent="globals/CustomItem" pc="268474330" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="457" parent="globals/CustomItem" pc="268474370" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="458" parent="globals/CustomItem" pc="268474392" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="459" parent="globals/CustomItem" pc="268474414" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="460" parent="globals/CustomItem" pc="268474449" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="460" parent="globals/CustomItem" pc="268474466" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="461" parent="globals/CustomItem" pc="268474491" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="462" parent="globals/CustomItem" pc="268474513" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="463" parent="globals/CustomItem" pc="268474553" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="464" parent="globals/CustomItem" pc="268474575" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="465" parent="globals/CustomItem" pc="268474615" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="32" lineNum="466" parent="globals/CustomItem" pc="268474637" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="33" lineNum="411" parent="globals/HangmanStatsDelegate" pc="268474678" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="33" lineNum="412" parent="globals/HangmanStatsDelegate" pc="268474680" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="34" lineNum="403" parent="globals/HangmanStatsDelegate" pc="268474702" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="34" lineNum="404" parent="globals/HangmanStatsDelegate" pc="268474704" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="35" lineNum="407" parent="globals/HangmanStatsDelegate" pc="268474723" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanView.mc" id="35" lineNum="408" parent="globals/HangmanStatsDelegate" pc="268474725" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="36" lineNum="12" parent="globals/HangmanApp" pc="268474726" symbol="onStart"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="37" lineNum="20" parent="globals/HangmanApp" pc="268474729" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="37" lineNum="21" parent="globals/HangmanApp" pc="268474731" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="38" lineNum="7" parent="globals/HangmanApp" pc="268474806" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="38" lineNum="8" parent="globals/HangmanApp" pc="268474808" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanApp.mc" id="39" lineNum="16" parent="globals/HangmanApp" pc="268474827" symbol="onStop"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="70" parent="globals/HangmanDelegate" pc="268474830" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="71" parent="globals/HangmanDelegate" pc="268474834" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="72" parent="globals/HangmanDelegate" pc="268474858" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="73" parent="globals/HangmanDelegate" pc="268474890" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="74" parent="globals/HangmanDelegate" pc="268474906" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="75" parent="globals/HangmanDelegate" pc="268474916" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="76" parent="globals/HangmanDelegate" pc="268474941" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="77" parent="globals/HangmanDelegate" pc="268474952" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="78" parent="globals/HangmanDelegate" pc="268474980" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="81" parent="globals/HangmanDelegate" pc="268474998" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="83" parent="globals/HangmanDelegate" pc="268475014" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="40" lineNum="84" parent="globals/HangmanDelegate" pc="268475045" symbol="procLetter"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="41" lineNum="11" parent="globals/HangmanDelegate" pc="268475075" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="41" lineNum="12" parent="globals/HangmanDelegate" pc="268475077" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="41" lineNum="13" parent="globals/HangmanDelegate" pc="268475150" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="42" lineNum="7" parent="globals/HangmanDelegate" pc="268475153" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="42" lineNum="8" parent="globals/HangmanDelegate" pc="268475155" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="16" parent="globals/HangmanDelegate" pc="268475174" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="17" parent="globals/HangmanDelegate" pc="268475178" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="18" parent="globals/HangmanDelegate" pc="268475205" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="19" parent="globals/HangmanDelegate" pc="268475218" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="20" parent="globals/HangmanDelegate" pc="268475242" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="21" parent="globals/HangmanDelegate" pc="268475253" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="22" parent="globals/HangmanDelegate" pc="268475271" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="23" parent="globals/HangmanDelegate" pc="268475381" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="24" parent="globals/HangmanDelegate" pc="268475414" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="25" parent="globals/HangmanDelegate" pc="268475434" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="26" parent="globals/HangmanDelegate" pc="268475442" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="29" parent="globals/HangmanDelegate" pc="268475462" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="27" parent="globals/HangmanDelegate" pc="268475485" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="28" parent="globals/HangmanDelegate" pc="268475499" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="30" parent="globals/HangmanDelegate" pc="268475502" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="31" parent="globals/HangmanDelegate" pc="268475512" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="33" parent="globals/HangmanDelegate" pc="268475516" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="34" parent="globals/HangmanDelegate" pc="268475532" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="39" parent="globals/HangmanDelegate" pc="268475557" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="40" parent="globals/HangmanDelegate" pc="268475649" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="41" parent="globals/HangmanDelegate" pc="268475676" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="42" parent="globals/HangmanDelegate" pc="268475688" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="43" parent="globals/HangmanDelegate" pc="268475704" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="45" parent="globals/HangmanDelegate" pc="268475710" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="46" parent="globals/HangmanDelegate" pc="268475819" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="47" parent="globals/HangmanDelegate" pc="268475846" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="48" parent="globals/HangmanDelegate" pc="268475866" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="49" parent="globals/HangmanDelegate" pc="268475879" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="50" parent="globals/HangmanDelegate" pc="268475895" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="52" parent="globals/HangmanDelegate" pc="268475901" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="53" parent="globals/HangmanDelegate" pc="268475993" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="43" lineNum="55" parent="globals/HangmanDelegate" pc="268476008" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="62" parent="globals/HangmanDelegate" pc="268476011" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="63" parent="globals/HangmanDelegate" pc="268476013" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="63" parent="globals/HangmanDelegate" pc="268476033" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="64" parent="globals/HangmanDelegate" pc="268476039" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="64" parent="globals/HangmanDelegate" pc="268476068" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="65" parent="globals/HangmanDelegate" pc="268476074" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="65" parent="globals/HangmanDelegate" pc="268476094" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="66" parent="globals/HangmanDelegate" pc="268476100" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="66" parent="globals/HangmanDelegate" pc="268476129" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanDelegate.mc" id="44" lineNum="67" parent="globals/HangmanDelegate" pc="268476135" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="45" lineNum="27" parent="globals/HangmanMenuDelegate" pc="268476138" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="45" lineNum="28" parent="globals/HangmanMenuDelegate" pc="268476140" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="46" lineNum="8" parent="globals/HangmanMenuDelegate" pc="268476162" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="46" lineNum="9" parent="globals/HangmanMenuDelegate" pc="268476164" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="12" parent="globals/HangmanMenuDelegate" pc="268476183" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="13" parent="globals/HangmanMenuDelegate" pc="268476185" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="14" parent="globals/HangmanMenuDelegate" pc="268476196" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="19" parent="globals/HangmanMenuDelegate" pc="268476216" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="15" parent="globals/HangmanMenuDelegate" pc="268476239" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="16" parent="globals/HangmanMenuDelegate" pc="268476279" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="17" parent="globals/HangmanMenuDelegate" pc="268476308" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="18" parent="globals/HangmanMenuDelegate" pc="268476337" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="20" parent="globals/HangmanMenuDelegate" pc="268476340" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="21" parent="globals/HangmanMenuDelegate" pc="268476380" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="22" parent="globals/HangmanMenuDelegate" pc="268476409" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\Hangman\\source\\HangmanMenuDelegate.mc" id="47" lineNum="23" parent="globals/HangmanMenuDelegate" pc="268476438" symbol="onSelect"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="45" symbol="shadowcolor"/>
+<entry field="true" id="57" symbol="&lt;globals/CustomItem/&lt;&gt;_id&gt;"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="5" object="true" symbol="CustomIcon"/>
+<entry id="17" method="true" symbol="addStats"/>
+<entry field="true" id="32" symbol="newY"/>
+<entry field="true" id="31" symbol="newX"/>
+<entry field="true" id="30" symbol="newW"/>
+<entry field="true" id="29" symbol="newH"/>
+<entry field="true" id="24" symbol="keyboards"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry field="true" id="8391941" symbol="theme"/>
+<entry field="true" id="56" symbol="&lt;globals/CustomItem/&lt;&gt;_count&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="61" method="true" symbol="inbox"/>
+<entry field="true" id="64" symbol="AppName"/>
+<entry id="4" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="11" object="true" symbol="HangmanMenuDelegate"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="22" symbol="head"/>
+<entry field="true" id="67" symbol="prompt"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="37" symbol="nooseY"/>
+<entry field="true" id="36" symbol="nooseX"/>
+<entry field="true" id="35" symbol="nooseW"/>
+<entry field="true" id="34" symbol="nooseH"/>
+<entry id="14" object="true" symbol="HangmanView"/>
+<entry field="true" id="19" symbol="center"/>
+<entry field="true" id="47" symbol="so"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="62" method="true" symbol="procLetter"/>
+<entry id="9" object="true" symbol="HangmanApp"/>
+<entry field="true" id="48" symbol="soh"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="58" symbol="&lt;globals/CustomItem/&lt;&gt;_label&gt;"/>
+<entry field="true" id="50" symbol="themes"/>
+<entry field="true" id="60" symbol="&lt;globals/CustomItem/&lt;&gt;_total&gt;"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry field="true" id="49" symbol="solid"/>
+<entry id="6" object="true" symbol="CustomItem"/>
+<entry id="33" method="true" symbol="newgame"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="16" symbol="SW"/>
+<entry field="true" id="15" symbol="SH"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="55" symbol="&lt;globals/CustomIcon/&lt;&gt;_index&gt;"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="7" symbol="DS"/>
+<entry field="true" id="43" symbol="selected"/>
+<entry field="true" id="42" symbol="rad"/>
+<entry field="true" id="44" symbol="shadow"/>
+<entry id="12" object="true" symbol="HangmanSettings"/>
+<entry field="true" id="59" symbol="&lt;globals/CustomItem/&lt;&gt;_max&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="63" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="25" symbol="letterStatus"/>
+<entry field="true" id="41" symbol="puzzles"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="20" symbol="gallows"/>
+<entry field="true" id="40" symbol="puzzleY"/>
+<entry field="true" id="39" symbol="puzzleX"/>
+<entry field="true" id="21" symbol="game"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8391796" symbol="titleItemHeight"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="28" symbol="letters"/>
+<entry field="true" id="27" symbol="letterY"/>
+<entry field="true" id="26" symbol="letterX"/>
+<entry field="true" id="23" symbol="keyboard"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="46" method="true" symbol="showStats"/>
+<entry id="8" object="true" symbol="DrawableMenuTitle"/>
+<entry field="true" id="18" symbol="body"/>
+<entry id="10" object="true" symbol="HangmanDelegate"/>
+<entry id="13" object="true" symbol="HangmanStatsDelegate"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="38" symbol="puzzle"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry field="true" id="54" symbol="tryY"/>
+<entry field="true" id="53" symbol="tryX"/>
+<entry field="true" id="52" symbol="tryW"/>
+<entry field="true" id="51" symbol="tryH"/>
+<entry field="true" id="66" symbol="menu_label_2"/>
+<entry field="true" id="65" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry endPc="268466654" name="tmp" stackId="1" startPc="268466154"/>
+<entry endPc="268467210" name="stats" stackId="1" startPc="268466763"/>
+<entry endPc="268467210" name="menu" stackId="2" startPc="268466763"/>
+<entry endPc="268467210" name="labels" stackId="3" startPc="268466763"/>
+<entry endPc="268467210" name="total" stackId="4" startPc="268466763"/>
+<entry endPc="268467210" name="max" stackId="5" startPc="268466763"/>
+<entry endPc="268467062" name="i" stackId="6" startPc="268467019"/>
+<entry endPc="268467149" name="i" stackId="7" startPc="268467087"/>
+<entry endPc="268467416" name="stats" stackId="1" startPc="268467224"/>
+<entry endPc="268467416" name="segments" stackId="2" startPc="268467224"/>
+<entry arg="true" endPc="268467723" name="dc" stackId="1" startPc="268467547"/>
+<entry arg="true" endPc="268468233" name="dc" stackId="1" startPc="268467724"/>
+<entry endPc="268468232" name="gap" stackId="2" startPc="268467728"/>
+<entry endPc="268468232" name="x" stackId="3" startPc="268467728"/>
+<entry endPc="268468232" name="y" stackId="4" startPc="268467728"/>
+<entry endPc="268467914" name="i" stackId="5" startPc="268467854"/>
+<entry endPc="268468073" name="i" stackId="6" startPc="268468013"/>
+<entry endPc="268468232" name="i" stackId="7" startPc="268468172"/>
+<entry arg="true" endPc="268473783" name="dc" stackId="1" startPc="268468255"/>
+<entry endPc="268473782" name="tmp" stackId="2" startPc="268468259"/>
+<entry endPc="268473782" name="tmp2" stackId="3" startPc="268468259"/>
+<entry endPc="268473782" name="tmp3" stackId="4" startPc="268468259"/>
+<entry endPc="268473782" name="tmp4" stackId="5" startPc="268468259"/>
+<entry endPc="268473782" name="lines" stackId="6" startPc="268468259"/>
+<entry endPc="268473782" name="l" stackId="7" startPc="268468259"/>
+<entry endPc="268473782" name="text" stackId="8" startPc="268468259"/>
+<entry endPc="268469392" name="s" stackId="9" startPc="268469149"/>
+<entry endPc="268469448" name="i" stackId="10" startPc="268469417"/>
+<entry endPc="268473782" name="state" stackId="11" startPc="268468259"/>
+<entry endPc="268469663" name="i" stackId="12" startPc="268469515"/>
+<entry endPc="268469650" name="j" stackId="13" startPc="268469542"/>
+<entry endPc="268469974" name="i" stackId="14" startPc="268469812"/>
+<entry endPc="268473782" name="segments" stackId="15" startPc="268468259"/>
+<entry endPc="268473782" name="offX" stackId="16" startPc="268468259"/>
+<entry endPc="268473782" name="offY" stackId="17" startPc="268468259"/>
+<entry endPc="268470861" name="i" stackId="18" startPc="268470670"/>
+<entry endPc="268471169" name="i" stackId="19" startPc="268470997"/>
+<entry endPc="268471156" name="j" stackId="20" startPc="268471086"/>
+<entry endPc="268472089" name="i" stackId="21" startPc="268471205"/>
+<entry arg="true" endPc="268473820" name="index" stackId="1" startPc="268473784"/>
+<entry arg="true" endPc="268473857" name="dc" stackId="1" startPc="268473821"/>
+<entry endPc="268474123" name="keyboardicon" stackId="1" startPc="268473862"/>
+<entry endPc="268474123" name="themeicon" stackId="2" startPc="268473862"/>
+<entry arg="true" endPc="268474203" name="id" stackId="1" startPc="268474125"/>
+<entry arg="true" endPc="268474203" name="label" stackId="2" startPc="268474125"/>
+<entry arg="true" endPc="268474203" name="count" stackId="3" startPc="268474125"/>
+<entry arg="true" endPc="268474203" name="total" stackId="4" startPc="268474125"/>
+<entry arg="true" endPc="268474203" name="max" stackId="5" startPc="268474125"/>
+<entry arg="true" endPc="268474677" name="dc" stackId="1" startPc="268474204"/>
+<entry endPc="268474676" name="w" stackId="2" startPc="268474208"/>
+<entry endPc="268474676" name="h" stackId="3" startPc="268474208"/>
+<entry endPc="268474676" name="bx" stackId="4" startPc="268474208"/>
+<entry endPc="268474676" name="bw" stackId="5" startPc="268474208"/>
+<entry endPc="268474676" name="lx" stackId="6" startPc="268474208"/>
+<entry endPc="268474676" name="cx" stackId="7" startPc="268474208"/>
+<entry endPc="268474676" name="px" stackId="8" startPc="268474208"/>
+<entry endPc="268474676" name="pct" stackId="9" startPc="268474208"/>
+<entry endPc="268474676" name="mpct" stackId="10" startPc="268474208"/>
+<entry arg="true" endPc="268474725" name="item" stackId="1" startPc="268474723"/>
+<entry arg="true" endPc="268475074" name="l" stackId="1" startPc="268474830"/>
+<entry endPc="268475073" name="segments" stackId="2" startPc="268474834"/>
+<entry arg="true" endPc="268476010" name="clickEvent" stackId="1" startPc="268475174"/>
+<entry endPc="268476010" name="xy" stackId="2" startPc="268475178"/>
+<entry endPc="268476010" name="state" stackId="3" startPc="268475178"/>
+<entry endPc="268475553" name="i" stackId="4" startPc="268475271"/>
+<entry arg="true" endPc="268476137" name="boxxy" stackId="1" startPc="268476011"/>
+<entry arg="true" endPc="268476137" name="boxwh" stackId="2" startPc="268476011"/>
+<entry arg="true" endPc="268476137" name="point" stackId="3" startPc="268476011"/>
+<entry arg="true" endPc="268476442" name="item" stackId="1" startPc="268476183"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="55" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="51904" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/DrawableMenuTitle" offset="51951" parentId="globals" symbolId="DrawableMenuTitle" type="class"/>
+<dataEntry label="globals/HangmanView" offset="52006" parentId="globals" symbolId="HangmanView" type="class"/>
+<dataEntry label="globals/CustomIcon" offset="52085" parentId="globals" symbolId="CustomIcon" type="class"/>
+<dataEntry label="globals/HangmanSettings" offset="52148" parentId="globals" symbolId="HangmanSettings" type="class"/>
+<dataEntry label="globals/CustomItem" offset="52195" parentId="globals" symbolId="CustomItem" type="class"/>
+<dataEntry label="globals/HangmanStatsDelegate" offset="52290" parentId="globals" symbolId="HangmanStatsDelegate" type="class"/>
+<dataEntry label="globals/HangmanApp" offset="52353" parentId="globals" symbolId="HangmanApp" type="class"/>
+<dataEntry label="globals/HangmanDelegate" offset="52424" parentId="globals" symbolId="HangmanDelegate" type="class"/>
+<dataEntry label="globals/HangmanMenuDelegate" offset="52503" parentId="globals" symbolId="HangmanMenuDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="52566" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="52605" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268466141" name="&lt;init&gt;" parent="Rez" startPc="268466118">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268466655" name="newgame" startPc="268466142">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268466674" name="&lt;init&gt;" parent="DrawableMenuTitle" startPc="268466656">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268466693" name="&lt;init&gt;" parent="HangmanView" startPc="268466675">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268466712" name="&lt;init&gt;" parent="CustomIcon" startPc="268466694">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268466731" name="&lt;init&gt;" parent="HangmanSettings" startPc="268466713">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268466750" name="&lt;init&gt;" parent="CustomItem" startPc="268466732">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467211" name="showStats" startPc="268466751">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467417" name="addStats" startPc="268467212">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467436" name="&lt;init&gt;" parent="HangmanStatsDelegate" startPc="268467418">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467462" name="getApp" startPc="268467437">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467481" name="&lt;init&gt;" parent="HangmanApp" startPc="268467463">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467500" name="&lt;init&gt;" parent="HangmanDelegate" startPc="268467482">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467519" name="&lt;init&gt;" parent="HangmanMenuDelegate" startPc="268467501">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467546" name="initialize" parent="DrawableMenuTitle" startPc="268467520">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268467723" name="draw" parent="DrawableMenuTitle" startPc="268467547">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="HangmanView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268468233" name="onLayout" parent="HangmanView" startPc="268467724">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268468254" name="initialize" parent="HangmanView" startPc="268468234">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="HangmanView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268473783" name="onUpdate" parent="HangmanView" startPc="268468255">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268473820" name="initialize" parent="CustomIcon" startPc="268473784">
+<param id="index"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268473857" name="draw" parent="CustomIcon" startPc="268473821">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474124" name="initialize" parent="HangmanSettings" startPc="268473858">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474203" name="initialize" parent="CustomItem" startPc="268474125">
+<param id="id"/>
+<param id="label"/>
+<param id="count"/>
+<param id="total"/>
+<param id="max"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474677" name="draw" parent="CustomItem" startPc="268474204">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474701" name="onBack" parent="HangmanStatsDelegate" startPc="268474678">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474722" name="initialize" parent="HangmanStatsDelegate" startPc="268474702">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474725" name="onSelect" parent="HangmanStatsDelegate" startPc="268474723">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474728" name="onStart" parent="HangmanApp" startPc="268474726">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474805" name="getInitialView" parent="HangmanApp" startPc="268474729">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474826" name="initialize" parent="HangmanApp" startPc="268474806">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268474829" name="onStop" parent="HangmanApp" startPc="268474827">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268475074" name="procLetter" parent="HangmanDelegate" startPc="268474830">
+<param id="l"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268475152" name="onMenu" parent="HangmanDelegate" startPc="268475075">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268475173" name="initialize" parent="HangmanDelegate" startPc="268475153">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268476010" name="onTap" parent="HangmanDelegate" startPc="268475174">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268476137" name="inbox" parent="HangmanDelegate" startPc="268476011">
+<param id="boxxy"/>
+<param id="boxwh"/>
+<param id="point"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268476161" name="onBack" parent="HangmanMenuDelegate" startPc="268476138">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268476182" name="initialize" parent="HangmanMenuDelegate" startPc="268476162">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268476442" name="onSelect" parent="HangmanMenuDelegate" startPc="268476183">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
