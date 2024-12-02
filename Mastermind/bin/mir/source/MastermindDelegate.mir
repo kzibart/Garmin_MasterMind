@@ -1,0 +1,907 @@
+[ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 5; ]
+class MastermindDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_7_26_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_7_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 11; ]
+    function onMenu() as Boolean {
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_11_33_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 12 8 ]
+        %tmp.1 = false;
+        ret %tmp.1;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_11_33_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 15; ]
+    function onTap(clickEvent) as Boolean {
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_15_42_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 16 8 ]
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_15_42_start" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_15_42_stop" ]
+        %xy.1 = local;
+        %tmp.1 = lgetv %clickEvent;
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %xy.1 %tmp.3;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 17 8 ]
+        %tmp.5 = getv ? :state;
+        push %tmp.5;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_switchStmtBegin:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 18 12 ]
+        %tmp.6 = dup %tmp.5;
+        %tmp.7 = 0;
+        %tmp.8 = getv function %tmp.6 :equals;
+        %tmp.9 = invoke %tmp.6 %tmp.8 (%tmp.7);
+        bt %tmp.9 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_18_12_switchCase;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 73 12 ]
+        %tmp.10 = dup %tmp.5;
+        %tmp.11 = 1;
+        %tmp.12 = getv function %tmp.10 :equals;
+        %tmp.13 = invoke %tmp.10 %tmp.12 (%tmp.11);
+        bt %tmp.13 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_73_12_switchCase;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 111 12 ]
+        %tmp.14 = dup %tmp.5;
+        %tmp.15 = 2;
+        %tmp.16 = getv function %tmp.14 :equals;
+        %tmp.17 = invoke %tmp.14 %tmp.16 (%tmp.15);
+        bt %tmp.17 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_111_12_switchCase;
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_defaultCodeBegin;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_18_12_switchCase:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 19 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_20_begin:
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :inbox;
+        %tmp.21 = lgetv %xy.1;
+        %tmp.23 = getv ? :adjcolorsXY;
+        %tmp.24 = 0;
+        %tmp.25 = agetv %tmp.23 %tmp.24;
+        %tmp.27 = getv ? :adjcolorsWH;
+        %tmp.28 = invoke %tmp.18 %tmp.19(%tmp.21, %tmp.25, %tmp.27);
+        %tmp.29 = dup %tmp.28;
+        bf %tmp.29 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_61_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_61_true:
+        %tmp.31 = getv ? :colors;
+        %tmp.33 = getv ? :maxcolors;
+        %tmp.34 = lt %tmp.31 %tmp.33;
+        %tmp.35 = and %tmp.28 %tmp.34;
+        push %tmp.35;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_61_end:
+        %tmp.36 = phi [%tmp.29 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_20_begin] [%tmp.35 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_61_true] [%tmp.36 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_61_end];
+        bf %tmp.36 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_81_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 20 20 ]
+        %tmp.39 = getv ? :colors;
+        %tmp.40 = add %tmp.39 1;
+        putv self :colors dup %tmp.40;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 21 20 ]
+        %tmp.41 = self;
+        %tmp.42 = getv function %tmp.41 :savegame;
+        invoke %tmp.41 %tmp.42();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 22 20 ]
+        %tmp.43 = getm $.Toybox.WatchUi;
+        %tmp.44 = getv function %tmp.43 :requestUpdate;
+        invoke %tmp.43 %tmp.44();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 23 20 ]
+        %tmp.45 = true;
+        ret %tmp.45;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_81_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_19_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 25 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_20_begin:
+        %tmp.46 = self;
+        %tmp.47 = getv function %tmp.46 :inbox;
+        %tmp.49 = lgetv %xy.1;
+        %tmp.51 = getv ? :adjcolorsXY;
+        %tmp.52 = 1;
+        %tmp.53 = agetv %tmp.51 %tmp.52;
+        %tmp.55 = getv ? :adjcolorsWH;
+        %tmp.56 = invoke %tmp.46 %tmp.47(%tmp.49, %tmp.53, %tmp.55);
+        %tmp.57 = dup %tmp.56;
+        bf %tmp.57 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_61_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_61_true:
+        %tmp.59 = getv ? :colors;
+        %tmp.61 = getv ? :mincolors;
+        %tmp.62 = gt %tmp.59 %tmp.61;
+        %tmp.63 = and %tmp.56 %tmp.62;
+        push %tmp.63;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_61_end:
+        %tmp.64 = phi [%tmp.57 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_20_begin] [%tmp.63 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_61_true] [%tmp.64 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_61_end];
+        bf %tmp.64 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_81_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 26 20 ]
+        %tmp.67 = getv ? :colors;
+        %tmp.68 = sub %tmp.67 1;
+        putv self :colors dup %tmp.68;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 27 20 ]
+        %tmp.69 = self;
+        %tmp.70 = getv function %tmp.69 :savegame;
+        invoke %tmp.69 %tmp.70();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 28 20 ]
+        %tmp.71 = getm $.Toybox.WatchUi;
+        %tmp.72 = getv function %tmp.71 :requestUpdate;
+        invoke %tmp.71 %tmp.72();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 29 20 ]
+        %tmp.73 = true;
+        ret %tmp.73;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_81_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_25_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 31 16 ]
+        %tmp.74 = newa 2;
+        %tmp.76 = getv ? :adjtriesWH;
+        %tmp.77 = 0;
+        %tmp.78 = agetv %tmp.76 %tmp.77;
+        %tmp.79 = dup %tmp.74;
+        %tmp.80 = aputv %tmp.79 0 %tmp.78;
+        %tmp.82 = getv ? :adjtriesWH;
+        %tmp.83 = 1;
+        %tmp.84 = agetv %tmp.82 %tmp.83;
+        %tmp.85 = 2;
+        %tmp.86 = div %tmp.84 %tmp.85;
+        %tmp.87 = dup %tmp.80;
+        %tmp.88 = aputv %tmp.87 1 %tmp.86;
+        putv self :tmp %tmp.88;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 32 16 ]
+        %tmp.89 = newa 2;
+        %tmp.91 = getv ? :adjtriesXY;
+        %tmp.92 = 0;
+        %tmp.93 = agetv %tmp.91 %tmp.92;
+        %tmp.94 = dup %tmp.89;
+        %tmp.95 = aputv %tmp.94 0 %tmp.93;
+        %tmp.97 = getv ? :adjtriesXY;
+        %tmp.98 = 1;
+        %tmp.99 = agetv %tmp.97 %tmp.98;
+        %tmp.101 = getv ? :tmp;
+        %tmp.102 = 1;
+        %tmp.103 = agetv %tmp.101 %tmp.102;
+        %tmp.104 = add %tmp.99 %tmp.103;
+        %tmp.105 = dup %tmp.95;
+        %tmp.106 = aputv %tmp.105 1 %tmp.104;
+        putv self :tmp2 %tmp.106;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 33 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_20_begin:
+        %tmp.107 = self;
+        %tmp.108 = getv function %tmp.107 :inbox;
+        %tmp.110 = lgetv %xy.1;
+        %tmp.112 = getv ? :adjtriesXY;
+        %tmp.114 = getv ? :tmp;
+        %tmp.115 = invoke %tmp.107 %tmp.108(%tmp.110, %tmp.112, %tmp.114);
+        %tmp.116 = dup %tmp.115;
+        bf %tmp.116 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_49_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_49_true:
+        %tmp.118 = getv ? :tries;
+        %tmp.120 = getv ? :maxtries;
+        %tmp.121 = lt %tmp.118 %tmp.120;
+        %tmp.122 = and %tmp.115 %tmp.121;
+        push %tmp.122;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_49_end:
+        %tmp.123 = phi [%tmp.116 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_20_begin] [%tmp.122 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_49_true] [%tmp.123 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_49_end];
+        bf %tmp.123 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_67_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 34 20 ]
+        %tmp.126 = getv ? :tries;
+        %tmp.127 = add %tmp.126 1;
+        putv self :tries dup %tmp.127;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 35 20 ]
+        %tmp.128 = self;
+        %tmp.129 = getv function %tmp.128 :savegame;
+        invoke %tmp.128 %tmp.129();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 36 20 ]
+        %tmp.130 = getm $.Toybox.WatchUi;
+        %tmp.131 = getv function %tmp.130 :requestUpdate;
+        invoke %tmp.130 %tmp.131();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 37 20 ]
+        %tmp.132 = true;
+        ret %tmp.132;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_67_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_33_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 39 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_20_begin:
+        %tmp.133 = self;
+        %tmp.134 = getv function %tmp.133 :inbox;
+        %tmp.136 = lgetv %xy.1;
+        %tmp.138 = getv ? :tmp2;
+        %tmp.140 = getv ? :tmp;
+        %tmp.141 = invoke %tmp.133 %tmp.134(%tmp.136, %tmp.138, %tmp.140);
+        %tmp.142 = dup %tmp.141;
+        bf %tmp.142 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_43_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_43_true:
+        %tmp.144 = getv ? :tries;
+        %tmp.146 = getv ? :mintries;
+        %tmp.147 = gt %tmp.144 %tmp.146;
+        %tmp.148 = and %tmp.141 %tmp.147;
+        push %tmp.148;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_43_end:
+        %tmp.149 = phi [%tmp.142 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_20_begin] [%tmp.148 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_43_true] [%tmp.149 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_43_end];
+        bf %tmp.149 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_61_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 40 20 ]
+        %tmp.152 = getv ? :tries;
+        %tmp.153 = sub %tmp.152 1;
+        putv self :tries dup %tmp.153;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 41 20 ]
+        %tmp.154 = self;
+        %tmp.155 = getv function %tmp.154 :savegame;
+        invoke %tmp.154 %tmp.155();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 42 20 ]
+        %tmp.156 = getm $.Toybox.WatchUi;
+        %tmp.157 = getv function %tmp.156 :requestUpdate;
+        invoke %tmp.156 %tmp.157();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 43 20 ]
+        %tmp.158 = true;
+        ret %tmp.158;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_61_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_39_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 45 16 ]
+        %tmp.159 = newa 2;
+        %tmp.161 = getv ? :adjpegsWH;
+        %tmp.162 = 0;
+        %tmp.163 = agetv %tmp.161 %tmp.162;
+        %tmp.164 = dup %tmp.159;
+        %tmp.165 = aputv %tmp.164 0 %tmp.163;
+        %tmp.167 = getv ? :adjpegsWH;
+        %tmp.168 = 1;
+        %tmp.169 = agetv %tmp.167 %tmp.168;
+        %tmp.170 = 2;
+        %tmp.171 = div %tmp.169 %tmp.170;
+        %tmp.172 = dup %tmp.165;
+        %tmp.173 = aputv %tmp.172 1 %tmp.171;
+        putv self :tmp %tmp.173;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 46 16 ]
+        %tmp.174 = newa 2;
+        %tmp.176 = getv ? :adjpegsXY;
+        %tmp.177 = 0;
+        %tmp.178 = agetv %tmp.176 %tmp.177;
+        %tmp.179 = dup %tmp.174;
+        %tmp.180 = aputv %tmp.179 0 %tmp.178;
+        %tmp.182 = getv ? :adjpegsXY;
+        %tmp.183 = 1;
+        %tmp.184 = agetv %tmp.182 %tmp.183;
+        %tmp.186 = getv ? :tmp;
+        %tmp.187 = 1;
+        %tmp.188 = agetv %tmp.186 %tmp.187;
+        %tmp.189 = add %tmp.184 %tmp.188;
+        %tmp.190 = dup %tmp.180;
+        %tmp.191 = aputv %tmp.190 1 %tmp.189;
+        putv self :tmp2 %tmp.191;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 47 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_20_begin:
+        %tmp.192 = self;
+        %tmp.193 = getv function %tmp.192 :inbox;
+        %tmp.195 = lgetv %xy.1;
+        %tmp.197 = getv ? :adjpegsXY;
+        %tmp.199 = getv ? :tmp;
+        %tmp.200 = invoke %tmp.192 %tmp.193(%tmp.195, %tmp.197, %tmp.199);
+        %tmp.201 = dup %tmp.200;
+        bf %tmp.201 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_48_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_48_true:
+        %tmp.203 = getv ? :pegs;
+        %tmp.205 = getv ? :maxpegs;
+        %tmp.206 = lt %tmp.203 %tmp.205;
+        %tmp.207 = and %tmp.200 %tmp.206;
+        push %tmp.207;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_48_end:
+        %tmp.208 = phi [%tmp.201 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_20_begin] [%tmp.207 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_48_true] [%tmp.208 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_48_end];
+        bf %tmp.208 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_64_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 48 20 ]
+        %tmp.211 = getv ? :pegs;
+        %tmp.212 = add %tmp.211 1;
+        putv self :pegs dup %tmp.212;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 49 20 ]
+        %tmp.213 = self;
+        %tmp.214 = getv function %tmp.213 :savegame;
+        invoke %tmp.213 %tmp.214();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 50 20 ]
+        %tmp.215 = getm $.Toybox.WatchUi;
+        %tmp.216 = getv function %tmp.215 :requestUpdate;
+        invoke %tmp.215 %tmp.216();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 51 20 ]
+        %tmp.217 = true;
+        ret %tmp.217;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_64_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_47_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 53 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_20_begin:
+        %tmp.218 = self;
+        %tmp.219 = getv function %tmp.218 :inbox;
+        %tmp.221 = lgetv %xy.1;
+        %tmp.223 = getv ? :tmp2;
+        %tmp.225 = getv ? :tmp;
+        %tmp.226 = invoke %tmp.218 %tmp.219(%tmp.221, %tmp.223, %tmp.225);
+        %tmp.227 = dup %tmp.226;
+        bf %tmp.227 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_43_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_43_true:
+        %tmp.229 = getv ? :pegs;
+        %tmp.231 = getv ? :minpegs;
+        %tmp.232 = gt %tmp.229 %tmp.231;
+        %tmp.233 = and %tmp.226 %tmp.232;
+        push %tmp.233;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_43_end:
+        %tmp.234 = phi [%tmp.227 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_20_begin] [%tmp.233 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_43_true] [%tmp.234 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_43_end];
+        bf %tmp.234 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_59_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 54 20 ]
+        %tmp.237 = getv ? :pegs;
+        %tmp.238 = sub %tmp.237 1;
+        putv self :pegs dup %tmp.238;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 55 20 ]
+        %tmp.239 = self;
+        %tmp.240 = getv function %tmp.239 :savegame;
+        invoke %tmp.239 %tmp.240();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 56 20 ]
+        %tmp.241 = getm $.Toybox.WatchUi;
+        %tmp.242 = getv function %tmp.241 :requestUpdate;
+        invoke %tmp.241 %tmp.242();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 57 20 ]
+        %tmp.243 = true;
+        ret %tmp.243;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_59_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_53_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 59 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_16_if_stmt:
+        %tmp.244 = self;
+        %tmp.245 = getv function %tmp.244 :inbox;
+        %tmp.247 = lgetv %xy.1;
+        %tmp.249 = getv ? :dupXY;
+        %tmp.251 = getv ? :dupWH;
+        %tmp.252 = invoke %tmp.244 %tmp.245(%tmp.247, %tmp.249, %tmp.251);
+        bf %tmp.252 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_43_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 60 20 ]
+        %tmp.254 = getv ? :dups;
+        %tmp.255 = not %tmp.254;
+        putv self :dups %tmp.255;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 61 20 ]
+        %tmp.256 = self;
+        %tmp.257 = getv function %tmp.256 :savegame;
+        invoke %tmp.256 %tmp.257();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 62 20 ]
+        %tmp.258 = getm $.Toybox.WatchUi;
+        %tmp.259 = getv function %tmp.258 :requestUpdate;
+        invoke %tmp.258 %tmp.259();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 63 20 ]
+        %tmp.260 = true;
+        ret %tmp.260;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_43_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_59_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 65 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_16_if_stmt:
+        %tmp.261 = self;
+        %tmp.262 = getv function %tmp.261 :inbox;
+        %tmp.264 = lgetv %xy.1;
+        %tmp.266 = getv ? :newXY;
+        %tmp.268 = getv ? :newWH;
+        %tmp.269 = invoke %tmp.261 %tmp.262(%tmp.264, %tmp.266, %tmp.268);
+        bf %tmp.269 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_43_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 66 20 ]
+        %tmp.272 = getv ? :state;
+        %tmp.273 = add %tmp.272 1;
+        putv self :state dup %tmp.273;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 67 20 ]
+        %tmp.274 = self;
+        %tmp.275 = getv function %tmp.274 :newgame2;
+        invoke %tmp.274 %tmp.275();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 68 20 ]
+        %tmp.276 = self;
+        %tmp.277 = getv function %tmp.276 :savegame;
+        invoke %tmp.276 %tmp.277();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 69 20 ]
+        %tmp.278 = getm $.Toybox.WatchUi;
+        %tmp.279 = getv function %tmp.278 :requestUpdate;
+        invoke %tmp.278 %tmp.279();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 70 20 ]
+        %tmp.280 = true;
+        ret %tmp.280;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_43_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_65_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 72 16 ]
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_switchStmtEnd;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_73_12_switchCase:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 74 16 ]
+        for @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_test @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_incr @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_init:
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_begin" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_end" ]
+        %i.2 = local;
+        %tmp.281 = 0;
+        lputv %i.2 %tmp.281;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_test:
+        %tmp.283 = lgetv %i.2;
+        %tmp.285 = getv ? :colors;
+        %tmp.286 = lt %tmp.283 %tmp.285;
+        bf %tmp.286 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_begin:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_43_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 75 20 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_20_if_stmt:
+        %tmp.287 = self;
+        %tmp.288 = getv function %tmp.287 :inCircle;
+        %tmp.290 = lgetv %xy.1;
+        %tmp.292 = getv ? :colXY;
+        %tmp.294 = lgetv %i.2;
+        %tmp.295 = agetv %tmp.292 %tmp.294;
+        %tmp.297 = getv ? :colR;
+        %tmp.298 = invoke %tmp.287 %tmp.288(%tmp.290, %tmp.295, %tmp.297);
+        bf %tmp.298 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_20_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_20_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_54_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 76 24 ]
+        %tmp.299 = getv self :peg;
+        %tmp.301 = getv ? :row;
+        %tmp.302 = agetv %tmp.299 %tmp.301;
+        %tmp.304 = lgetv %i.2;
+        %tmp.306 = getv ? :col;
+        aputv %tmp.302 %tmp.306 %tmp.304;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 77 24 ]
+        %tmp.308 = getv ? :col;
+        %tmp.309 = 1;
+        %tmp.310 = add %tmp.308 %tmp.309;
+        %tmp.312 = getv ? :pegs;
+        %tmp.313 = mod %tmp.310 %tmp.312;
+        putv self :col %tmp.313;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 78 24 ]
+        %tmp.314 = self;
+        %tmp.315 = getv function %tmp.314 :savegame;
+        invoke %tmp.314 %tmp.315();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 79 24 ]
+        %tmp.316 = getm $.Toybox.WatchUi;
+        %tmp.317 = getv function %tmp.316 :requestUpdate;
+        invoke %tmp.316 %tmp.317();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 80 24 ]
+        %tmp.318 = true;
+        ret %tmp.318;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_54_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_20_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_75_20_if_end:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_43_stop:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_incr:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 74 ]
+        %tmp.321 = lgetv %i.2;
+        %tmp.322 = add %tmp.321 1;
+        lputv %i.2 %tmp.322;
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_test;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_74_16_for_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 83 16 ]
+        for @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_test @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_incr @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_init:
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_begin" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_end" ]
+        %i.3 = local;
+        %tmp.323 = 0;
+        lputv %i.3 %tmp.323;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_test:
+        %tmp.325 = lgetv %i.3;
+        %tmp.327 = getv ? :pegs;
+        %tmp.328 = lt %tmp.325 %tmp.327;
+        bf %tmp.328 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_begin:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_41_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 84 20 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_20_if_stmt:
+        %tmp.329 = self;
+        %tmp.330 = getv function %tmp.329 :inCircle;
+        %tmp.332 = lgetv %xy.1;
+        %tmp.334 = getv ? :pegXY;
+        %tmp.336 = getv ? :row;
+        %tmp.337 = agetv %tmp.334 %tmp.336;
+        %tmp.339 = lgetv %i.3;
+        %tmp.340 = agetv %tmp.337 %tmp.339;
+        %tmp.342 = getv ? :pegR;
+        %tmp.343 = invoke %tmp.329 %tmp.330(%tmp.332, %tmp.340, %tmp.342);
+        bf %tmp.343 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_20_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_20_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_57_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 85 24 ]
+        %tmp.345 = lgetv %i.3;
+        putv self :col %tmp.345;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 86 24 ]
+        %tmp.346 = self;
+        %tmp.347 = getv function %tmp.346 :savegame;
+        invoke %tmp.346 %tmp.347();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 87 24 ]
+        %tmp.348 = getm $.Toybox.WatchUi;
+        %tmp.349 = getv function %tmp.348 :requestUpdate;
+        invoke %tmp.348 %tmp.349();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 88 24 ]
+        %tmp.350 = true;
+        ret %tmp.350;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_57_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_20_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_84_20_if_end:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_41_stop:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_incr:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 83 ]
+        %tmp.353 = lgetv %i.3;
+        %tmp.354 = add %tmp.353 1;
+        lputv %i.3 %tmp.354;
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_test;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_83_16_for_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 91 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_16_if_stmt:
+        %tmp.355 = self;
+        %tmp.356 = getv function %tmp.355 :inbox;
+        %tmp.358 = lgetv %xy.1;
+        %tmp.360 = getv ? :clearXY;
+        %tmp.362 = getv ? :clearWH;
+        %tmp.363 = invoke %tmp.355 %tmp.356(%tmp.358, %tmp.360, %tmp.362);
+        bf %tmp.363 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_49_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 92 20 ]
+        for @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_test @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_incr @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_init:
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_begin" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_end" ]
+        %i.4 = local;
+        %tmp.364 = 0;
+        lputv %i.4 %tmp.364;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_test:
+        %tmp.366 = lgetv %i.4;
+        %tmp.368 = getv ? :pegs;
+        %tmp.369 = lt %tmp.366 %tmp.368;
+        bf %tmp.369 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_begin:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_45_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 93 24 ]
+        %tmp.370 = getv self :peg;
+        %tmp.372 = getv ? :row;
+        %tmp.373 = agetv %tmp.370 %tmp.372;
+        %tmp.374 = null;
+        %tmp.376 = lgetv %i.4;
+        aputv %tmp.373 %tmp.376 %tmp.374;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_45_stop:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_incr:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 92 ]
+        %tmp.379 = lgetv %i.4;
+        %tmp.380 = add %tmp.379 1;
+        lputv %i.4 %tmp.380;
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_test;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_92_20_for_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 95 20 ]
+        %tmp.381 = 0;
+        putv self :col %tmp.381;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 96 20 ]
+        %tmp.382 = self;
+        %tmp.383 = getv function %tmp.382 :savegame;
+        invoke %tmp.382 %tmp.383();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 97 20 ]
+        %tmp.384 = getm $.Toybox.WatchUi;
+        %tmp.385 = getv function %tmp.384 :requestUpdate;
+        invoke %tmp.384 %tmp.385();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 98 20 ]
+        %tmp.386 = true;
+        ret %tmp.386;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_49_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_91_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 100 16 ]
+        %tmp.387 = true;
+        putv self :tmp %tmp.387;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 101 16 ]
+        for @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_test @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_incr @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_init:
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_begin" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_end" ]
+        %i.5 = local;
+        %tmp.388 = 0;
+        lputv %i.5 %tmp.388;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_test:
+        %tmp.390 = lgetv %i.5;
+        %tmp.392 = getv ? :pegs;
+        %tmp.393 = lt %tmp.390 %tmp.392;
+        bf %tmp.393 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_begin:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_41_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 102 20 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_20_if_stmt:
+        %tmp.395 = getv ? :peg;
+        %tmp.397 = getv ? :row;
+        %tmp.398 = agetv %tmp.395 %tmp.397;
+        %tmp.400 = lgetv %i.5;
+        %tmp.401 = agetv %tmp.398 %tmp.400;
+        %tmp.402 = null;
+        %tmp.403 = eq %tmp.401 %tmp.402;
+        bf %tmp.403 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_20_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_20_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_45_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 102 47 ]
+        %tmp.404 = false;
+        putv self :tmp %tmp.404;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 102 60 ]
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_45_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_20_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_102_20_if_end:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_41_stop:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_incr:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 101 ]
+        %tmp.407 = lgetv %i.5;
+        %tmp.408 = add %tmp.407 1;
+        lputv %i.5 %tmp.408;
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_test;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_101_16_for_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 104 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_16_if_stmt:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_20_begin:
+        %tmp.409 = self;
+        %tmp.410 = getv function %tmp.409 :inbox;
+        %tmp.412 = lgetv %xy.1;
+        %tmp.414 = getv ? :guessXY;
+        %tmp.416 = getv ? :guessWH;
+        %tmp.417 = invoke %tmp.409 %tmp.410(%tmp.412, %tmp.414, %tmp.416);
+        %tmp.418 = dup %tmp.417;
+        bf %tmp.418 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_52_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_52_true:
+        %tmp.420 = getv ? :tmp;
+        %tmp.421 = and %tmp.417 %tmp.420;
+        push %tmp.421;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_52_end:
+        %tmp.422 = phi [%tmp.418 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_20_begin] [%tmp.421 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_52_true] [%tmp.422 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_52_end];
+        bf %tmp.422 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_57_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 105 20 ]
+        %tmp.423 = self;
+        %tmp.424 = getv function %tmp.423 :setresult;
+        invoke %tmp.423 %tmp.424();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 106 20 ]
+        %tmp.425 = self;
+        %tmp.426 = getv function %tmp.425 :savegame;
+        invoke %tmp.425 %tmp.426();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 107 20 ]
+        %tmp.427 = getm $.Toybox.WatchUi;
+        %tmp.428 = getv function %tmp.427 :requestUpdate;
+        invoke %tmp.427 %tmp.428();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 108 20 ]
+        %tmp.429 = true;
+        ret %tmp.429;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_57_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_104_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 110 16 ]
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_switchStmtEnd;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_111_12_switchCase:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 112 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_16_if_stmt:
+        %tmp.430 = self;
+        %tmp.431 = getv function %tmp.430 :inbox;
+        %tmp.433 = lgetv %xy.1;
+        %tmp.435 = getv ? :statsXY;
+        %tmp.437 = getv ? :statsWH;
+        %tmp.438 = invoke %tmp.430 %tmp.431(%tmp.433, %tmp.435, %tmp.437);
+        bf %tmp.438 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_47_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 113 20 ]
+        %tmp.439 = self;
+        %tmp.440 = getv function %tmp.439 :showstats;
+        invoke %tmp.439 %tmp.440();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 114 20 ]
+        %tmp.441 = getm $.Toybox.WatchUi;
+        %tmp.442 = getv function %tmp.441 :requestUpdate;
+        invoke %tmp.441 %tmp.442();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 115 20 ]
+        %tmp.443 = true;
+        ret %tmp.443;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_47_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_112_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 117 16 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_16_if_stmt:
+        %tmp.444 = self;
+        %tmp.445 = getv function %tmp.444 :inbox;
+        %tmp.447 = lgetv %xy.1;
+        %tmp.449 = getv ? :newXY;
+        %tmp.451 = getv ? :newWH;
+        %tmp.452 = invoke %tmp.444 %tmp.445(%tmp.447, %tmp.449, %tmp.451);
+        bf %tmp.452 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_16_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_43_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 118 20 ]
+        %tmp.453 = self;
+        %tmp.454 = getv function %tmp.453 :newgame;
+        invoke %tmp.453 %tmp.454();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 119 20 ]
+        %tmp.455 = getm $.Toybox.WatchUi;
+        %tmp.456 = getv function %tmp.455 :requestUpdate;
+        invoke %tmp.455 %tmp.456();
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 120 20 ]
+        %tmp.457 = true;
+        ret %tmp.457;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_43_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_16_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_117_16_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 122 16 ]
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_switchStmtEnd;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_defaultCodeBegin:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_17_8_switchStmtEnd:
+        pop;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 124 8 ]
+        %tmp.458 = false;
+        ret %tmp.458;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_15_42_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 127; ]
+    public
+    function inCircle(point, circle, rad) {
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 128 8 ]
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_start" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_stop" ]
+        %x.1 = local;
+        %tmp.2 = lgetv %point;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        lputv %x.1 %tmp.4;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 129 8 ]
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_start" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_stop" ]
+        %y.2 = local;
+        %tmp.6 = lgetv %point;
+        %tmp.7 = 1;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        lputv %y.2 %tmp.8;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 130 8 ]
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_start" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_stop" ]
+        %cx.3 = local;
+        %tmp.10 = lgetv %circle;
+        %tmp.11 = 0;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        lputv %cx.3 %tmp.12;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 131 8 ]
+        [ "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_start" "C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_stop" ]
+        %cy.4 = local;
+        %tmp.14 = lgetv %circle;
+        %tmp.15 = 1;
+        %tmp.16 = agetv %tmp.14 %tmp.15;
+        lputv %cy.4 %tmp.16;
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 132 8 ]
+        %tmp.18 = lgetv %x.1;
+        %tmp.20 = lgetv %cx.3;
+        %tmp.21 = sub %tmp.18 %tmp.20;
+        %tmp.23 = lgetv %x.1;
+        %tmp.25 = lgetv %cx.3;
+        %tmp.26 = sub %tmp.23 %tmp.25;
+        %tmp.27 = mul %tmp.21 %tmp.26;
+        %tmp.29 = lgetv %y.2;
+        %tmp.31 = lgetv %cy.4;
+        %tmp.32 = sub %tmp.29 %tmp.31;
+        %tmp.34 = lgetv %y.2;
+        %tmp.36 = lgetv %cy.4;
+        %tmp.37 = sub %tmp.34 %tmp.36;
+        %tmp.38 = mul %tmp.32 %tmp.37;
+        %tmp.39 = add %tmp.27 %tmp.38;
+        %tmp.41 = lgetv %rad;
+        %tmp.43 = lgetv %rad;
+        %tmp.44 = mul %tmp.41 %tmp.43;
+        %tmp.45 = lte %tmp.39 %tmp.44;
+        ret %tmp.45;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_127_49_stop:
+    }
+    [ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 139; ]
+    public
+    function inbox(point, boxxy, boxwh) as Boolean {
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_139_56_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 140 8 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_8_if_stmt:
+        %tmp.2 = lgetv %point;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.6 = lgetv %boxxy;
+        %tmp.7 = 0;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        %tmp.9 = lt %tmp.4 %tmp.8;
+        bf %tmp.9 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_8_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_31_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 140 32 ]
+        %tmp.10 = false;
+        ret %tmp.10;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_31_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_140_8_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 141 8 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_8_if_stmt:
+        %tmp.12 = lgetv %point;
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        %tmp.16 = lgetv %boxxy;
+        %tmp.17 = 0;
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.20 = lgetv %boxwh;
+        %tmp.21 = 0;
+        %tmp.22 = agetv %tmp.20 %tmp.21;
+        %tmp.23 = add %tmp.18 %tmp.22;
+        %tmp.24 = gt %tmp.14 %tmp.23;
+        bf %tmp.24 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_8_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_40_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 141 41 ]
+        %tmp.25 = false;
+        ret %tmp.25;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_40_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_141_8_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 142 8 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_8_if_stmt:
+        %tmp.27 = lgetv %point;
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.31 = lgetv %boxxy;
+        %tmp.32 = 1;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = lt %tmp.29 %tmp.33;
+        bf %tmp.34 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_8_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_31_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 142 32 ]
+        %tmp.35 = false;
+        ret %tmp.35;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_31_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_142_8_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 143 8 ]
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_8_if_stmt:
+        %tmp.37 = lgetv %point;
+        %tmp.38 = 1;
+        %tmp.39 = agetv %tmp.37 %tmp.38;
+        %tmp.41 = lgetv %boxxy;
+        %tmp.42 = 1;
+        %tmp.43 = agetv %tmp.41 %tmp.42;
+        %tmp.45 = lgetv %boxwh;
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = add %tmp.43 %tmp.47;
+        %tmp.49 = gt %tmp.39 %tmp.48;
+        bf %tmp.49 @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_8_if_true:
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_40_start:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 143 41 ]
+        %tmp.50 = false;
+        ret %tmp.50;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_40_stop:
+        goto @C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_8_if_end;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_143_8_if_end:
+[ "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc" 144 8 ]
+        %tmp.51 = true;
+        ret %tmp.51;
+C_Garmin_Projects_Mastermind_source_MastermindDelegate_mc_139_56_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\Mastermind\source\MastermindDelegate.mc"; @line = 1; ]
+<init> {
+}
